@@ -50,7 +50,8 @@ li {
 .nav-ul {
   display: flex;
   flex-direction: column;
-  gap: 5rem;
+  gap: 3rem;
+  margin-top: -1rem;
   padding: 1rem;
   /* background-color: gray; */
   border-radius: 3rem;
@@ -370,4 +371,56 @@ aside {
 .bx-chevrons-down {
   color: #4649ff;
   font-size: 1.5rem;
+}
+
+.logo2 img {
+  width: 3rem;
+}
+
+.logo2 {
+  height: 5rem;
+  margin-bottom: -3rem;
+}
+
+.tour-con {
+  padding: 2rem;
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr; */
+}
+
+.tour {
+  margin-top: 5rem;
+}
+
+.tbox {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.number {
+  font-size: 6rem;
+  /* background: linear-gradient(to right, #0575e6, #021b79); */
+  background: linear-gradient(to right, #0575e6, #021b79);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.b-right-b {
+  /* border-right: 2px solid #000; */
+  padding-right: 1rem;
+}
+
+.b-left-b {
+  /* border-left: 2px solid #000; */
+  padding-left: 1rem;
 }
