@@ -157,7 +157,7 @@ aside {
 }
 
 .cus:hover {
-  background-color: #6c63ff;
+  background-color: #0575e6;
 }
 
 /* .cus-img {
@@ -304,7 +304,8 @@ aside {
 }
 
 .box:hover {
-  background-color: #6c63ff;
+  /* background-color: #6c63ff; */
+  background-color: #0575e6;
 }
 
 .grid {
@@ -402,7 +403,7 @@ aside {
 }
 
 .number {
-  font-size: 6rem;
+  font-size: 7rem;
   /* background: linear-gradient(to right, #0575e6, #021b79); */
   background: linear-gradient(to right, #0575e6, #021b79);
   -webkit-text-fill-color: transparent;
@@ -423,4 +424,97 @@ aside {
 .b-left-b {
   /* border-left: 2px solid #000; */
   padding-left: 1rem;
+}
+
+.arman-con {
+  /* height: 20rem; */
+  background-image: url(./LOGO/pre.png);
+  background-position: center;
+  background-size: cover;
+  background-clip: content-box;
+  margin-top: 1rem;
+  padding: 1rem 0;
+}
+
+.arman-con p {
+  font-size: 1.1rem;
+  /* color: #fff; */
+  padding: 1rem 2rem;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  /* text-align: center; */
+  font-weight: 600;
+}
+
+.margin {
+  margin-bottom: 1rem;
+}
+
+.par {
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  /* color: #54b3d6; */
+  padding: 0 0.25rem;
+  margin: 0 -0.25rem;
+  transition: color 0.5s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.par:hover {
+  color: #fff;
+  box-shadow: inset 100vw 0 0 0 rgb(45, 87, 171);
+}
+
+.log {
+  width: 10rem;
+  margin-right: 1rem;
+}
+
+.sahand {
+  background-color: rgb(84, 84, 84);
+  color: #fff;
+  padding: 1rem;
+  width: 90%;
+  margin: auto;
+  border-radius: 2rem;
+}
+
+.h-border {
+  height: 20px;
+  width: 16rem;
+  justify-content: center;
+  background-color: #333;
+  margin: auto;
+  border-radius: 10rem;
+  margin-bottom: 1rem;
+}
+
+.sahand-con {
+  width: 80%;
+  margin: auto;
+  margin-top: 3rem;
+  padding: 1rem;
+}
+
+.sahand-con p {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.k {
+  color: white;
+}
+
+.logos {
+  display: flex;
+  gap: 2rem;
+  filter: brightness(30%);
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.logos img {
+  width: 10rem;
 }
