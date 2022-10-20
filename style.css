@@ -371,7 +371,7 @@ aside {
 }
 
 .bx-chevrons-down {
-  color: #4649ff;
+  color: #fff;
   font-size: 1.5rem;
 }
 
@@ -437,7 +437,7 @@ aside {
 
 .arman-con {
   /* height: 20rem; */
-  background-image: url(./LOGO/pre.png);
+  background-image: url(./pexels-ricardo-esquivel-1802268.jpg);
   background-position: center;
   background-size: cover;
   background-clip: content-box;
@@ -466,10 +466,11 @@ aside {
   /* color: #54b3d6; */
   padding: 0 0.25rem;
   margin: 0 -0.25rem;
+  color: white;
   transition: color 0.5s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 .par:hover {
-  color: #fff;
+  color: rgb(200, 200, 200);
   box-shadow: inset 100vw 0 0 0 #0575e6;
 }
 
