@@ -437,7 +437,8 @@ aside {
 
 .arman-con {
   /* height: 20rem; */
-  background-image: url(./pexels-ricardo-esquivel-1802268.jpg);
+  background-image: url(./clouds.jpg);
+  /* background: linear-gradient(#0575e6, #021b79); */
   background-position: center;
   background-size: cover;
   background-clip: content-box;
