@@ -100,7 +100,7 @@
     </div>
 
     <div class="br" id="br">
-      <h1 class="br-text"><i class='bx bxs-component'></i> BR TRADE GROUP</h1>
+      <h1 class="br-text"><i class='bx bxs-component'></i> BR TRADE GROUP:</h1>
       <p><i class='bx bx-chevrons-down'></i>BR group is a private family business establishment which established in 1990 and started its business ever since.
         <br>
         <br>
@@ -247,8 +247,8 @@
         </lord-icon>
         </div>
         <div class="tbox">
+          <h1 class="number  b-right-b">02</h1>
           <p>This company is working under the brand of “Bilittoday” and now more than 1000 active users are visiting the website every month also “Faghat Safar” is working on outgoing tours rely on the experience of its tour guides. </p>
-          <h1 class="number  b-left-b">02</h1>
         </div>
         <div class="arrow">
           <script src="https://cdn.lordicon.com/pzdvqjsp.js"></script>
@@ -276,27 +276,65 @@
   <lord-icon
       src="https://cdn.lordicon.com/igpsgesd.json"
       trigger="hover"
-      colors="primary:#121331,secondary:#FFF"
+      colors="primary:#121331,secondary:#6c63ff"
   
       style="width:100px;height:100px">
   </lord-icon>
           <h1>Arman Paksh Nafis:</h1>
          
         </div>  
+       <div class="left">
+        <img src="./undraw_interior_design_re_7mvn.svg" />
         <p class="par"><i class='bx bxs-hand-right'></i> Arman Pakhsh Nafis Company is one of the modern companies in the field of capillary sales and distribution of consumer goods in Iran, which started its activity 5 years ago by distributing cultural products in Tehran and today it has the ability to distribute and distribute in Tehran, Fars, Yazd and Mazandaran provinces.</p>
+        
+      </div>
+      <div class="right">
         <p class="par"><i class='bx bxs-hand-right'></i> The basis of exquisite broadcasting work is based on customer satisfaction and speed, the company seeks to turn all opportunities and customers into value by using modern and up-to-date methods. In order to achieve this important goal, the company has implemented and implemented quality sales and quality management systems by using experienced experts, and is constantly trying to eliminate shortcomings and improve its implementation methods through continuous monitoring.</p>
+        <img src="./undraw_a_moment_to_relax_re_v5gv.svg" />
+      </div>
+      <div class="left b-border">
+        <img src="./undraw_project_complete_lwss.svg" />
         <p class="par"><i class='bx bxs-hand-right'></i> Some of the successful experiences of this company are cooperation with Maral Note Cultural Company, Mahak Cultural Company and Sharin Zarrin Bahar Agricultural Products Company and other products of Br Trading Group.</p>
+
+      </div>
     </div>
     </div>
 
     <div class="logos">
-      <img src="./LOGO/Nafis Land.png">
-      <img src="./LOGO/sahand sanat.jpg">
-      <img src="./LOGO/تراکتورسازی.jpeg">
-      <img src="./LOGO/سپهر سپنتا.JPG">
-      <img src="./LOGO/شالی زرین.jpg">
-      <img src="./LOGO/لوگو بی آر.jpg">
+      <div class="logos-box">
+        
+        <img src="./LOGO/Nafis Land.png">
+      </div>
+      <div class="logos-box">
+        
+
+        <img src="./LOGO/sahand sanat.jpg">
+      </div>
+      <div class="logos-box">
+        
+
+        <img src="./LOGO/تراکتورسازی.jpeg">
+      </div>
+      <div class="logos-box">
+        
+
+        <img src="./LOGO/سپهر سپنتا.JPG">
+      </div>
+      <div class="logos-box">
+        
+
+        <img src="./LOGO/شالی زرین.jpg">
+      </div>
+      <div class="logos-box">
+        
+
+        <img src="./LOGO/لوگو بی آر.jpg">
+        </div>
+        <div class="logos-box">
+          
+
       <img src="./LOGO/Logo.En.jpg">
+      </div>
     </div>
 
     <div class="sahand" id="sahand">
@@ -348,9 +386,51 @@
     </div>
    </div>
 
+   <div class="email">
+    <div class="cta">
+      <div class="cta-text-box">
+        <h2 class="heading-secondary">Why not email us?</h2>
+        <p class="cta-text">
+          You can easily stay in touch with us by simply email us. we try our best to help your business grow. start now!
+        </p>
+
+        <form class="cta-form" action="#">
+          <div>
+            <label for="full-name">Full Name</label>
+            <input id="full-name" type="text" placeholder="John Smith" required="">
+          </div>
+
+          <div>
+            <label for="email">Email address</label>
+            <input id="email" type="email" placeholder="me@example.com" required="">
+          </div>
+
+          <div>
+            <label for="select-where">Where did you hear from us?</label>
+            <select id="select-where" required="">
+              <option value="">Please choose one option:</option>
+              <option value="friends">Friends and family</option>
+              <option value="youtube">Podcast</option>
+              <option value="podcast">Telegram</option>
+              <option value="ad">Facebook ad</option>
+              <option value="others">Others</option>
+            </select>
+          </div>
+
+          <button class="btn btn--form" value="Send Email" onclick="sendEmail()">Submit</button>
+
+          <!-- <input type="checkbox" />
+          <input type="number" /> -->
+        </form>
+      </div>
+      <div class="cta-img-box" role="img" aria-label="Woman enjoying food"></div>
+    </div>
+  </div>
+
    <footer>
     <div class="footer">
       <img src="./21-removebg-preview.png">
+      <!-- <p class="ggg">Zomorod Tower, Gol Nabi St, Pasdaran Ave, Tehran, Iran. </p> -->
       <p class="font">Maid with ❤ by <a href="https://www.instagram.com/iamparsa111/">@iamparsa111</a></p>
     </div>
 
@@ -360,6 +440,8 @@
 
     <!-- ------------------------------------ -->
     <script src="./app.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
     <script>
       AOS.init();
     </script>
