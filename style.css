@@ -521,9 +521,9 @@ aside {
 }
 
 .logos {
+  background-color: white;
   display: flex;
   gap: 3rem;
-  /* filter: brightness(30%); */
   justify-content: center;
   padding: 1rem;
   margin: auto;
@@ -590,7 +590,7 @@ footer img {
 .font a {
   font-family: "poppins";
   font-size: 1.2rem;
-  color: white;
+  color: #3e2c41;
   transition: ease-in-out 0.2s;
 }
 
@@ -730,6 +730,10 @@ footer img {
     margin-bottom: -26rem;
   }
 
+  /* .footer {
+    margin-bottom: -63vh;
+  } */
+
   .footer .font {
     font-size: 1.2rem;
     margin-bottom: -1rem;
@@ -812,7 +816,7 @@ footer img {
   }
 
   .logos img {
-    width: 10rem;
+    width: 80%;
   }
 }
 
