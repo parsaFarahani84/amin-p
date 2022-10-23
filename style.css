@@ -470,7 +470,7 @@ aside {
   display: flex;
   justify-content: center;
   /* text-align: center; */
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 
 .margin {
