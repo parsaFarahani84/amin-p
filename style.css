@@ -553,6 +553,7 @@ aside {
 }
 
 .logos img {
+  filter: opacity(0.5);
   width: 7rem;
 }
 
