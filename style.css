@@ -32,6 +32,20 @@ li {
   text-decoration: none;
 }
 
+textarea {
+  width: 100%;
+  resize: none;
+  height: auto;
+  padding: 0.6rem;
+  font-size: 1rem;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  background-color: #fdf2e9;
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+}
+
 .container {
   /* width: 100vw; */
   height: 100vh;
@@ -521,7 +535,7 @@ aside {
 }
 
 .logos {
-  background-color: white;
+  /* background-color: white; */
   display: flex;
   gap: 3rem;
   justify-content: center;
@@ -605,6 +619,10 @@ footer img {
     align-items: center;
     flex-direction: column;
     gap: 3rem;
+  }
+
+  .cta-form label {
+    font-size: 1.4rem !important;
   }
 
   .cus {
@@ -733,6 +751,10 @@ footer img {
   /* .footer {
     margin-bottom: -63vh;
   } */
+
+  p {
+    line-height: 1.5 !important;
+  }
 
   .footer .font {
     font-size: 1.2rem;
@@ -881,7 +903,7 @@ footer img {
 
 .cta-form label {
   display: block;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 500;
   margin-bottom: 1.2rem;
 }
