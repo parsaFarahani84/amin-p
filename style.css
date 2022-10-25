@@ -138,6 +138,7 @@ aside {
 .nav-text h1 {
   /* font-family: "Dancing Script", cursive; */
   font-size: 4.5rem;
+  text-align: center;
   color: white;
   margin-bottom: 2rem;
 }
@@ -348,6 +349,10 @@ aside {
   margin-bottom: -1.5rem;
 }
 
+.main-text h1 {
+  margin-bottom: 1rem;
+}
+
 .main-ssg {
   display: flex;
   flex-direction: column;
@@ -360,7 +365,7 @@ aside {
   border-top: 2px solid black;
   padding-top: 1rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
   justify-content: center;
   align-items: center;
   /* text-align: center; */
@@ -372,7 +377,7 @@ aside {
   display: grid;
   border-top: 2px solid black;
   padding-top: 1rem;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
   justify-content: center;
   align-items: center;
   /* text-align: center; */
@@ -581,7 +586,7 @@ footer {
   /* bottom: 0; */
   margin-bottom: -50vh;
   position: relative;
-  margin-bottom: -45vh;
+  margin-bottom: -40vh;
 }
 
 .footer p {
@@ -591,7 +596,7 @@ footer {
 }
 
 footer img {
-  width: 9%;
+  width: 15%;
   /* height: 100%; */
   /* z-index: -1; right: 0; */
 }
@@ -757,9 +762,9 @@ footer img {
     margin-bottom: -26rem;
   }
 
-  /* .footer {
-    margin-bottom: -63vh;
-  } */
+  .footer {
+    margin-bottom: -45vh;
+  }
 
   p {
     line-height: 1.5 !important;
@@ -777,7 +782,7 @@ footer img {
 
   .footer img {
     margin-bottom: -1rem;
-    width: 15%;
+    width: 25%;
   }
 
   .nav-text h3 {
