@@ -11,6 +11,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="./LOGO/br.png" />
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="./style.css" />
 
     <title>BR Trade Group</title>
@@ -72,7 +73,7 @@
       <div class="nav-text">
         <h1>BR Trade, the sign of <span>Business...</span></h1>
         <span class="fff">
-          <div class="cus">
+          <div class="cus" data-aos="fade-right" data-aos-duration="1500">
           
     <div class="con">
       <h3><i class='bx bxs-group'></i> More than 1K customers</h3>
@@ -87,7 +88,7 @@
             <img class="illu b-left" src="./avatars//undraw_male_avatar_re_8fid.svg" />
             
           </div>  
-          <div class="cus">
+          <div class="cus" data-aos="fade-left" data-aos-duration="1500">
             <img class="illu b-right" src="./avatars/undraw_female_avatar_re_kbxm.svg" />
             <div class="con">
               <h3><i class='bx bxs-dollar-circle'></i> Lots of successful projects</h3>
@@ -129,7 +130,8 @@
     </div>
 
     <div class="br" id="br">
-      <h1 class="br-text"><i class='bx bxs-component'></i> BR TRADE GROUP <img class="logoimg" src="./LOGO/br.png">:</h1>
+      <h1 class="br-text" data-aos="fade-up"
+      data-aos-anchor-placement="bottom-bottom"><i class='bx bxs-component'></i> BR TRADE GROUP <img class="logoimg" src="./LOGO/br.png">:</h1>
       <div class="right">
         <p><i class='bx bx-chevrons-down'></i>BR group is a private family business establishment which established in 1990 and started its business ever since.
           <br>
@@ -214,7 +216,7 @@
     </div>
 
     <div class="ssg" id="ssg">
-      <div class="main-text">
+      <div class="main-text"  data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
         <h1>        <i class='bx bxs-cube'></i>
           Sepehr Sepanta Giti<img src="./ls/سپهر سپنتا_clipdrop-background-removal.png" class="logoimg2" />:</h1>
       </div>
@@ -264,7 +266,7 @@
     </div>
 
     <div class="tour" id="tour">
-      <div class="main-text">
+      <div class="main-text" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
         <h1>         <i class='bx bxs-cube-alt' ></i>
          Faghat Safar Tour and Travel Organizer <img src="./ls/Logo.En.png"  class="logoimg"/>:</h1>
 
@@ -324,7 +326,7 @@
     </div>
 
     <div class="arman" id="arman">
-      <div class="main-text margin">
+      <div class="main-text margin" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
         
          <h1><i class='bx bxs-component'></i> Arman Paksh Nafis <img src="./ls/Nafis Land_clipdrop-background-removal.png" class="logoimg2"/>:</h1>
        
@@ -379,7 +381,7 @@
     <div class="" id="sahand">
       <!-- <div class="h-border"></div> -->
     
-      <div class="main-text">
+      <div class="main-text" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
     
            <h1><i class='bx bxs-cuboid'></i> Sahand Sanat Ariya <img class="logoimg" src="./ls/sahand sanat.png" />:</h1>     
           </div>
@@ -409,7 +411,7 @@
            </div> -->
    </div>
    <div class="shali" id="shali">
-    <div class="main-text shali-t">
+    <div class="main-text shali-t" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
     
       <h1><i class='bx bxs-cube'></i> Shali Zarin Bahar <img src="./ls/شالی زرین_clipdrop-background-removall.png"  class="logoimg2"/>:</h1>
 
@@ -518,7 +520,7 @@
 
    <footer>
     <div class="footer">
-      <img src="./ls/لوگو بی آر_clipdrop-background-removal.png">
+      <img src="./ls/لوگو بی آر_clipdrop-background-removal.png" data-aos="fade-down">
       <!-- <p class="ggg">Zomorod Tower, Gol Nabi St, Pasdaran Ave, Tehran, Iran. </p> -->
       <p class="font">Made with ❤ by <a href="https://www.instagram.com/iamparsa111/">@iamparsa111</a></p>
     </div>
@@ -529,6 +531,8 @@
 
     <!-- ------------------------------------ -->
     <script src="./app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
 </script>
@@ -592,6 +596,9 @@
          text: "Successfully sent message",
        });
      }
+
+     AOS.init();
+
    </script>
   </body>
 </html>
